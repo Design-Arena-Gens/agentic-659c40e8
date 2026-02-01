@@ -1,0 +1,49 @@
+GTA V COMPANION DRIVER - INSTALLATION GUIDE
+==========================================
+
+REQUIREMENTS:
+1. GTA V (PC version)
+2. ScriptHookV - http://www.dev-c.com/gtav/scripthookv/
+3. ScriptHookVDotNet v3 - https://github.com/scripthookvdotnet/scripthookvdotnet
+4. NativeUI - https://github.com/Guad/NativeUI
+
+INSTALLATION STEPS:
+
+1. Install ScriptHookV:
+   - Download from http://www.dev-c.com/gtav/scripthookv/
+   - Extract ScriptHookV.dll, dinput8.dll, NativeTrainer.asi to your GTA V root folder
+
+2. Install ScriptHookVDotNet:
+   - Download latest release from https://github.com/scripthookvdotnet/scripthookvdotnet
+   - Extract ScriptHookVDotNet3.dll to your GTA V root folder
+   - Create a "scripts" folder in GTA V root if it doesn't exist
+
+3. Install NativeUI:
+   - Download from https://github.com/Guad/NativeUI/releases
+   - Place NativeUI.dll in GTA V/scripts/ folder
+
+4. Install Companion Driver Script:
+   - Copy CompanionDriver.dll to GTA V/scripts/ folder
+
+Your GTA V folder structure should look like:
+Grand Theft Auto V/
+├── ScriptHookV.dll
+├── dinput8.dll
+├── ScriptHookVDotNet3.dll
+└── scripts/
+    ├── NativeUI.dll
+    └── CompanionDriver.dll
+
+USAGE:
+1. Start GTA V
+2. Get into any vehicle
+3. Press F8 to open menu
+4. Select "Spawn Companion Driver"
+5. Enjoy!
+
+TROUBLESHOOTING:
+- Script not loading? Make sure all dependencies are installed correctly
+- Menu not appearing? Try pressing F8 while in a vehicle
+- Companion not spawning? Ensure you're in a vehicle when spawning
+
+For issues, check ScriptHookV.log in your GTA V folder.
